@@ -1,8 +1,9 @@
 <#
 .SYNOPSIS
     Recursively finds all .blinkmrc.json files under a specified root directory,
-    excluding specified directories.
-
+    excluding specified directories. Display a list to the console, optionally in JSON or Object format. 
+    Optionally copy the files to a zip file, retaining their relative paths.
+    
 .DESCRIPTION
     This script defines the Get-BlinkMrcFiles function.
 
